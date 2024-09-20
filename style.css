@@ -521,14 +521,17 @@ footer ul li a{
         display: block;
     }
     header{
-        padding: 1rem 5rem;
+        padding: 0.2rem 1rem;
         gap: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     header .logo{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .about-container img{
-        width: 50vw;
+        width: 40vw;
 
     }
     /* #gridimg{
@@ -545,7 +548,7 @@ footer ul li a{
         
     }
     footer{
-        width: 48vh;
+        width: 100%;
     }
     footer ul{
         gap: 1rem;
@@ -556,5 +559,12 @@ footer ul li a{
     .socials i{
         height: 4rem;
         width: 4rem;
+    }
+    .section-tittle{
+        font-size: 8vh;
+    }
+    .copyright{
+        text-align: center;
+        font-size: 15px;
     }
 }
